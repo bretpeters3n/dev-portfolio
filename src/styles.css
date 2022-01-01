@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+
+* {
+  box-sizing: border-box;
+}
 
 :root {
   --main-font-family: 'Manrope', sans-serif;
-  --main-text-dark: #0F1011;
+  --main-text-dark: #212529;
+  --main-text-light: #ffffff;
+  --main-bg-grey: #F2F2F2;
+  --main-bg-yellow: #FBDD64;
   --main-text-darkBlue: #2F73B4;
   --main-text-green: #5FD7AD;
   --main-text-lightBlue: #A573E1;
   --main-text-yellow: #FBDD64;
+}
+
+body {
+  background-color: white;
+}
+
+.bg-grey {
+  background-color: var(--main-bg-grey);
+}
+
+.bg-yellow {
+  background-color: var(--main-bg-yellow);
 }
 
 .iconRolloverToDarkBlue:hover {
@@ -215,8 +235,16 @@ nav {
   color: black;
 }
 
-div.projectCards:hover div.projIconsGroup {display:flex;}
+.contactIcons {
+  /* font-weight: 400; */
+  padding: 6px;
+  border-radius: 32px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 5px grey;
+}
 
+div.projectCards:hover div.projIconsGroup {display:flex;}
 
 .projIconsGroup {
   position: absolute;
@@ -224,6 +252,12 @@ div.projectCards:hover div.projIconsGroup {display:flex;}
   right: 30px;
   display: none;
   gap: 16px;
+}
+
+.contactIconsGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
 }
 
 .menuGrouping {
@@ -236,16 +270,32 @@ div.projectCards:hover div.projIconsGroup {display:flex;}
 
 .titleslide {
   /* background-color: silver; */
-  width: 100%;
-  height: 100vh;
+  width: 98%;
+  height: 97vh;
   align-items:center;
   justify-content: center;
-  margin: auto;
+  margin: 1%;
   display: flex;
   flex-direction: column;
+  gap: 32px;
+  /* padding: 32px; */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
+  border-radius: 28px;
+}
+
+.other-slides {
+  /* background-color: silver; */
+  width: 98%;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  display: flex;
+  padding: 88px;
+  flex-direction: column;
+  gap: 60px;
+  border-radius: 28px;
 }
 
 @keyframes gradient {
@@ -273,6 +323,49 @@ div.projectCards:hover div.projIconsGroup {display:flex;}
   font-weight: 600;
 }
 
+hr {
+  /* display: block; */
+  height: 1px;
+  border: 0;
+  /* border-top: 1px solid #fff !important;; */
+  margin: auto !important;
+  padding: 0;
+  opacity: 1 !important;
+  width: 445px;
+  text-align: center;
+}
+
+.hr {
+  /* display: block; */
+  height: 1px;
+  border: 0;
+  /* border-top: 1px solid #fff !important;; */
+  margin: auto !important;
+  padding: 0;
+  opacity: 1 !important;
+  width: 445px;
+  text-align: center;
+}
+
+.white-line {
+  background-color: #fff !important;
+}
+
+.black-line {
+  background-color: #000 !important;
+}
+
+.asset-underlined {
+  display: flex;
+  flex-direction: column;
+  gap:18px;
+}
+
+.sections-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
 @media screen and (max-height: 450px) {

@@ -4,8 +4,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import Tilt from 'react-parallax-tilt';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './styles.css';
-import CatMemory from './assets/project-catMemory.png'
-
+import Pdf from './assets/2022_bretpetersen_resume.pdf';
 
 import StickyNav from "react-sticky-nav";
 
@@ -17,6 +16,9 @@ import { ReactComponent as HamburgerIcon } from './assets/hamburger-thin.svg';
 import { ReactComponent as CloseIcon } from './assets/close-thin.svg';
 import { ReactComponent as GithubIcon } from './assets/github.svg';
 import { ReactComponent as HerokuIcon } from './assets/heroku.svg';
+import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
+import { ReactComponent as PhoneIcon } from './assets/phone.svg';
+import { ReactComponent as EmailIcon } from './assets/email.svg';
 
 
 const SizableLogo = styled.img((props) => ({
@@ -28,13 +30,16 @@ const SizableLogo = styled.img((props) => ({
 const Reset = createGlobalStyle`
   ${reset};
 
-  body {
-    // background-color: white;
+  h1 {
+    font-family: 'Asset', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    // color: #fff;
   }
 
-  h1 {
+  h2 {
     font-family: 'Manrope', sans-serif;
-    font-size: 60px;
+    font-size: 44px;
     font-weight: 600;
     text-align: center;
     line-height: 1.2;
@@ -43,19 +48,26 @@ const Reset = createGlobalStyle`
   
   h5 {
     font-family: 'Manrope', sans-serif;
-    // font-weight: 400;
-    // text-align: center;
   }
 
   h6 {
     font-family: 'Manrope', sans-serif;
-    // font-size: 18px;
-    // font-weight: 400;
   }
 
-  * {
-    box-sizing: border-box;
+  .about-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    max-width: 700px;
+    // line-height: 1.4;
+    text-align: center;
   }
+
+  p {
+    line-height: 28px;   /* within paragraph */
+    margin-bottom: 30px; /* between paragraphs */
+  }
+
 `;
 
 const Container = styled.div`
@@ -81,14 +93,14 @@ const Nav = styled(StickyNav)`
 
 const Button = styled.button`
   font-family: 'Manrope', sans-serif;
-  font-weight: 400;
-  border: 3px solid var(--main-text-dark);
+  font-weight: 200;
+  border: 2px solid var(--main-text-light);
   background-color: white;
-  color: var(--main-text-dark);
+  color: var(--main-text-light);
   font-size: 20px;
   padding: 10px 60px;
   // border-radius: 5px;
-  margin: 10px 0px;
+  // margin: 10px 0px;
   cursor: pointer;
 `;
 
@@ -125,88 +137,142 @@ export default function App() {
         )}
       </Nav>
       <MyNav></MyNav>
-      <section className="flex-wrap container">
-        <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
+      <div className="sections-gap">
+        <section className="flex-wrap container">
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
+            <div>
+              <div className="content">
+              <div className="pill"><h6>Crime Quiz</h6></div>
+                  <div className="projIconsGroup">
+                    <a href="https://github.com/bretpeters3n">
+                      <div className="projIcons">
+                        <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                      </div>
+                    </a>
+                    {/* <a href="http://bretpetersen.com"> */}
+                      <div className="projIcons">
+                        <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                  </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
+            </div>
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNorthernHealthTracker">
+            <div>
+              <div className="content">
+                <div className="pill"><h6>Health Tracker</h6></div>
+                  <div className="projIconsGroup">
+                    {/* <a href="https://github.com/bretpeters3n"> */}
+                      <div className="projIcons">
+                        <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                    {/* <a href="http://bretpetersen.com"> */}
+                      <div className="projIcons">
+                        <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                  </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
+            </div>
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectCatMemory">
           <div>
-            <div className="content">
-            <div className="pill"><h6>Crime Quiz</h6></div>
-                <div className="projIconsGroup">
-                  <a href="https://github.com/bretpeters3n">
-                    <div className="projIcons">
-                      <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                    </div>
-                  </a>
-                  {/* <a href="http://bretpetersen.com"> */}
-                    <div className="projIcons">
-                      <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                </div>
-              {/* <img src={CatMemory} style={{height:200}} /> */}
+              <div className="content">
+                <div className="pill"><h6>CatMemory</h6></div>
+                  <div className="projIconsGroup">
+                    {/* <a href="https://github.com/bretpeters3n"> */}
+                      <div className="projIcons">
+                        <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                    {/* <a href="http://bretpetersen.com"> */}
+                      <div className="projIcons">
+                        <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                  </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
             </div>
-          </div>
-        </Tilt>
-        <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNorthernHealthTracker">
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign">
           <div>
-            <div className="content">
-              <div className="pill"><h6>Health Tracker</h6></div>
-                <div className="projIconsGroup">
-                  {/* <a href="https://github.com/bretpeters3n"> */}
-                    <div className="projIcons">
-                      <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                  {/* <a href="http://bretpetersen.com"> */}
-                    <div className="projIcons">
-                      <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                </div>
-              {/* <img src={CatMemory} style={{height:200}} /> */}
+              <div className="content">
+                <div className="pill"><h6>UX/UI Portfolio</h6></div>
+                  <div className="projIconsGroup">
+                    {/* <a href="https://github.com/bretpeters3n"> */}
+                      <div className="projIcons">
+                        <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                    {/* <a href="http://bretpetersen.com"> */}
+                      <div className="projIcons">
+                        <HerokuIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                      </div>
+                    {/* </a> */}
+                  </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
             </div>
+          </Tilt>     
+        </section>
+        <section className="other-slides bg-grey" >
+          <div className="asset-underlined">
+            <h1>about</h1>
+            <hr/>
           </div>
-        </Tilt>
-        <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectCatMemory">
-        <div>
-            <div className="content">
-              <div className="pill"><h6>CatMemory</h6></div>
-                <div className="projIconsGroup">
-                  {/* <a href="https://github.com/bretpeters3n"> */}
-                    <div className="projIcons">
-                      <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                  {/* <a href="http://bretpetersen.com"> */}
-                    <div className="projIcons">
-                      <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                </div>
-              {/* <img src={CatMemory} style={{height:200}} /> */}
-            </div>
+          <div className="about-text">
+            <p>I’m a Full Stack Web Developer with extensive experience in visual design who enjoys the 
+              fast-paced environment of the tech industry and being part of pioneering teams. 
+              I’m a React-fluent developer who enjoys creating interaction and animation filled mobile 
+              and desktop experiences.</p>
+
+            <p><span style={{ fontWeight: '600', textDecoration: 'underline' }}>Core Competencies and Skills</span><br/>
+            Full Stack Web Developer with a passion for React.js.</p>
+
+            <p>When I’m not coding I enjoy street biking, live comedy and live music. I enjoy meeting new people, solving problems, and learning new things :)</p>
           </div>
-        </Tilt>
-        <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign">
-        <div>
-            <div className="content">
-              <div className="pill"><h6>UX/UI Portfolio</h6></div>
-                <div className="projIconsGroup">
-                  {/* <a href="https://github.com/bretpeters3n"> */}
-                    <div className="projIcons">
-                      <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                  {/* <a href="http://bretpetersen.com"> */}
-                    <div className="projIcons">
-                      <HerokuIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                    </div>
-                  {/* </a> */}
-                </div>
-              {/* <img src={CatMemory} style={{height:200}} /> */}
-            </div>
+        </section>
+        <section className="other-slides bg-yellow" >
+          <div className="asset-underlined">
+            <h1>resume</h1>
+            <hr/>
           </div>
-        </Tilt>     
-      </section>
+          <a href = {Pdf} target = "_blank"><Button style={{ backgroundColor: 'transparent', color: 'black', border: '2px solid #212529'}}>View resume (pdf)</Button></a>
+        </section>
+        <section className="other-slides bg-grey" >
+          <div className="asset-underlined">
+            <h1>contact</h1>
+            <hr/>
+          </div>
+          <div className="contactIconsGroup">
+            <a href="http://bretpetersen.com">
+              <div className="contactIcons">
+                <EmailIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+              </div>
+            </a>
+            <a href="http://bretpetersen.com">
+              <div className="contactIcons">
+                <LinkedInIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+              </div>
+            </a>
+            <a href="https://github.com/bretpeters3n">
+              <div className="contactIcons">
+                <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+              </div>
+            </a>
+            <a href="http://bretpetersen.com">
+              <div className="contactIcons">
+                <PhoneIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
     </Container>
   );
 }
@@ -239,9 +305,13 @@ export function TitleSlide() {
     <>
         {/* The overlay */}
         <div className="titleslide">
+          <div className="asset-underlined">
+            <h1 style={{color:'white'}}>hello!</h1>
+            <div className="hr white-line"></div>
+          </div>
           <div>
-            <h1><span style={{fontWeight:200}}>Hello, I'm </span><span style={{fontWeight:600}}>Bret Petersen</span><span style={{fontWeight:200}}>.</span><br />
-            <span style={{fontWeight:200}}>I'm a full-stack web developer.</span></h1>
+            <h2><span style={{fontWeight:200}}>I'm </span><span style={{fontWeight:600}}>Bret Petersen</span><span style={{fontWeight:200}}>.</span><br />
+            <span style={{fontWeight:200}}>I'm a full-stack web developer.</span></h2>
           </div>
           <AnchorLink href='#portfolio'>
             <Button style={{ backgroundColor: 'transparent' }}>View my work</Button>
