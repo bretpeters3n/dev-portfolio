@@ -250,22 +250,22 @@ export default function App() {
             <hr/>
           </div>
           <div className="contactIconsGroup">
-            <a href="http://bretpetersen.com">
+            <a href="mailto:bretpetersen@gmail.com">
               <div className="contactIcons">
                 <EmailIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
             </a>
-            <a href="http://bretpetersen.com">
+            <a href="https://www.linkedin.com/in/bret-petersen/" target="_blank">
               <div className="contactIcons">
                 <LinkedInIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
             </a>
-            <a href="https://github.com/bretpeters3n">
+            <a href="https://github.com/bretpeters3n" target="_blank">
               <div className="contactIcons">
                 <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
             </a>
-            <a href="http://bretpetersen.com">
+            <a href="tel:4152941459">
               <div className="contactIcons">
                 <PhoneIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
