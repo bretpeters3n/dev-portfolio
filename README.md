@@ -1,70 +1,205 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!-- PROJECT SHIELDS -->
+<!--
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!--
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![license](https://img.shields.io/badge/license-MIT-red) 
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <!--
+  <a href="https://github.com/github_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  -->
 
-### `npm start`
+<h1 align="center">Dev Portfolio</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <p align="center">
+    <img src="https://img.shields.io/badge/HTML-orange"/>
+    <img src="https://img.shields.io/badge/CSS-yellow"/>
+    <!--<img src="https://img.shields.io/badge/Bulma-blue"/>-->
+    <img src="https://img.shields.io/badge/Javascript-green"/>
+    <!--<img src="https://img.shields.io/badge/jQuery-violet"/>-->
+    <img src="https://img.shields.io/badge/-Node.js-blue"/>
+    <img src="https://img.shields.io/badge/-JSON-indigo "/>
+    <img src="https://img.shields.io/badge/-React-violet"/>
+    <img src="https://img.shields.io/badge/-GH Pages-red"/>
+    <img src="https://img.shields.io/badge/-Bootstrap-orange"/>
+    <!--<img src="https://img.shields.io/badge/-SQL-orange  "/>-->
+  </p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+    This project is my current development portfolio.
+    <br />
+    <br />
+    <!--<a href="https://bretpeters3n.github.io/Advanced-CSS-Portfolio/">View Demo</a>-->
+  </p>
+</div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!--
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+-->
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ul>
+    <li>
+      <a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#authors">Authors</a></li>
+    <li><a href="#preview">Preview</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#testing">Testing</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- OVERVIEW -->
+## Overview
+This project is my current development portfolio. The styles and interactions chosen for this build are based on an accumulation of other portfolios and interactive websites currently out there.
 
-### `npm run eject`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- BUILT WITH -->
+### Built With
+* HTML
+* CSS
+* Javascript
+* [Node.js](https://nodejs.org/en/)
+* [JSON](https://www.json.org/)
+* [React](https://reactjs.org/)
+* [GH Pages](https://www.npmjs.com/package/gh-pages)
+* [Bootstrap](https://getbootstrap.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+<!-- AUTHORS -->
+## Authors
+- Bret Petersen: [bretpeters3n](https://github.com/bretpeters3n)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<!-- PREVIEW -->
+## Preview
+N/A
+<!--![image](./img/screenshot.jpg)-->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- DEMO -->
+## Demo
+N/A
+<!--[View Demo](https://bretpeters3n.github.io/Advanced-CSS-Portfolio/)-->
 
-### Making a Progressive Web App
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<!-- GETTING STARTED -->
+## Getting Started
+These are instructions on setting up this project locally on your machine. To get a local copy up and running follow these simple example steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### Prerequisites
+Make sure you have the latest installation of NPM (Node Package Manager) by following this step.
+* Install/update NPM
+   ```sh
+   npm install npm@latest -g
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+### Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/bretpeters3n/dev-portfolio.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Run project
+   ```sh
+   npm run start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## Testing
+No testing has been set up yet.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourAmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some YourAmazingFeature'`)
+4. Push to the Branch (`git push origin feature/YourAmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- QUESTIONS -->
+## Contact
+Need a contact or have questions about this project? Please review the GitHub repo at [Dev Portfolio](https://github.com/bretpeters3n/dev-portfolio) or contact one of the authors on Github.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Font Awesome](https://www.npmjs.com/package/inquirer)
+* [react-anchor-link-smooth-scroll](https://www.npmjs.com/package/react-anchor-link-smooth-scroll)
+* [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt)
+* [react-sticky-nav](https://www.npmjs.com/package/react-sticky-nav)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
