@@ -35,7 +35,7 @@
     <img src="https://img.shields.io/badge/-Node.js-blue"/>
     <img src="https://img.shields.io/badge/-JSON-indigo "/>
     <img src="https://img.shields.io/badge/-React-violet"/>
-    <img src="https://img.shields.io/badge/-GH Pages-red"/>
+    <!--<img src="https://img.shields.io/badge/-GH Pages-red"/>-->
     <img src="https://img.shields.io/badge/-Bootstrap-orange"/>
     <!--<img src="https://img.shields.io/badge/-SQL-orange  "/>-->
   </p>
@@ -98,8 +98,9 @@ This project is my current development portfolio. The styles and interactions ch
 * [Node.js](https://nodejs.org/en/)
 * [JSON](https://www.json.org/)
 * [React](https://reactjs.org/)
-* [GH Pages](https://www.npmjs.com/package/gh-pages)
 * [Bootstrap](https://getbootstrap.com/)
+<!--* [GH Pages](https://www.npmjs.com/package/gh-pages)-->
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -113,7 +114,7 @@ This project is my current development portfolio. The styles and interactions ch
 
 <!-- PREVIEW -->
 ## Preview
-N/A
+http://bretpetersen.com/
 <!--![image](./img/screenshot.jpg)-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -121,7 +122,7 @@ N/A
 
 <!-- DEMO -->
 ## Demo
-N/A
+http://bretpetersen.com/
 <!--[View Demo](https://bretpeters3n.github.io/Advanced-CSS-Portfolio/)-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
