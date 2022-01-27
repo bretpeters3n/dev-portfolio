@@ -29,7 +29,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "21e9ce2cffc76810430c65f724252cbd",
-    "url": "/static/media/2022_bretpetersen_resume.21e9ce2c.pdf"
+    "url": "/static/media/bretpetersen-resume.html"
   },
   {
     "revision": "5c383529ac0ebabd17eb3c7ff4654e8a",
