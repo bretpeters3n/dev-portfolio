@@ -19,7 +19,6 @@
 
 body {
   background-color: white;
-  padding-bottom: 100px !important;
 }
 
 .bg-grey {
@@ -288,10 +287,10 @@ div.projectCards:hover div.projIconsGroup {display:flex;}
 
 .other-slides {
   /* background-color: silver; */
-  width: 1288px;
+  width: 98%;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 1%;
   display: flex;
   padding: 88px;
   flex-direction: column;
@@ -396,7 +395,7 @@ hr {
 }
 @media screen and (max-width: 768px) {
   .projectCards {
-    width: 96%;
+    width: 46%;
   }
   .pill {
     font-size: 12px;
@@ -409,18 +408,6 @@ hr {
     right: 14px;
     display: none;
     gap: 8px;
-  }
-  h1 {
-    font-size: 40px !important;
-  }
-  hr {
-    width: 245px;
-  }
-  .hr {
-    width: 245px;
-  }
-  .other-slides {
-    padding: 48px;
   }
 }
 @media screen and (max-width: 424px) {
@@ -438,12 +425,6 @@ hr {
     right: 14px;
     display: none;
     gap: 8px;
-  }
-  h2 {
-    font-size: 32px !important;
-  }
-  .other-slides {
-    padding: 24px;
   }
 }
 
