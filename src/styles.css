@@ -21,6 +21,14 @@ body {
   background-color: white;
 }
 
+button {
+  padding: 0px;
+  /* border-width: 0px; */
+  border-style: none;
+  border-color: none;
+  /* elevation: 0px; */
+}
+
 .bg-grey {
   background-color: var(--main-bg-grey);
 }
@@ -43,6 +51,7 @@ body {
 }
 
 .iconRolloverToWhite:hover {
+  box-shadow: none;
   fill: white;
 }
 
@@ -121,6 +130,8 @@ section {
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
+  box-shadow: none;
+  background-color: transparent;
   position: absolute;
   top: 20px;
   right: 45px;
@@ -394,8 +405,11 @@ hr {
   }
 }
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px!important;
+  }
   .projectCards {
-    width: 46%;
+    width: 96%;
   }
   .pill {
     font-size: 12px;

@@ -220,7 +220,7 @@ export default function App() {
             </div>
           </Tilt>     
         </section>
-        <section className="other-slides bg-grey" >
+        <section id="about" className="other-slides bg-grey" >
           <div className="asset-underlined">
             <h1>about</h1>
             <hr/>
@@ -237,14 +237,14 @@ export default function App() {
             <p>When I’m not coding I enjoy street biking, live comedy and live music. I enjoy meeting new people, solving problems, and learning new things :)</p>
           </div>
         </section>
-        <section className="other-slides bg-yellow" >
+        <section id="resume" className="other-slides bg-yellow" >
           <div className="asset-underlined">
             <h1>resume</h1>
             <hr/>
           </div>
-          <a href = {Pdf} target = "_blank"><Button style={{ backgroundColor: 'transparent', color: 'black', border: '2px solid #212529'}}>View resume (pdf)</Button></a>
+          <a href = {Pdf} target = "_blank"  rel = "noopener noreferrer"><Button style={{ backgroundColor: 'transparent', color: 'black', border: '2px solid #212529'}}>View resume (pdf)</Button></a>
         </section>
-        <section className="other-slides bg-grey" >
+        <section id="contact" className="other-slides bg-grey" >
           <div className="asset-underlined">
             <h1>contact</h1>
             <hr/>
@@ -255,12 +255,12 @@ export default function App() {
                 <EmailIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/bret-petersen/" target="_blank">
+            <a href="https://www.linkedin.com/in/bret-petersen/" target="_blank" rel="noopener noreferrer">
               <div className="contactIcons">
                 <LinkedInIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
             </a>
-            <a href="https://github.com/bretpeters3n" target="_blank">
+            <a href="https://github.com/bretpeters3n" target="_blank" rel="noopener noreferrer">
               <div className="contactIcons">
                 <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
               </div>
@@ -283,9 +283,12 @@ export function MyNav() {
         {/* The overlay */}
         <div id="myNav" className="overlay">
             {/* Button to close the overlay navigation */}
-            <a className="closebtn" onClick={ closeNav }>
+            {/* <a className="closebtn" onClick={ closeNav }>
               <CloseIcon className="iconRolloverToWhite" width="60px" height="60px" />
-            </a>
+            </a> */}
+            <button className="closebtn" onClick={closeNav}>
+              <CloseIcon className="iconRolloverToWhite" width="60px" height="60px" />
+            </button>
             {/* Overlay content */}
             <div className="overlay-content">
                 <a href="#home">Home</a>
@@ -302,7 +305,7 @@ export function MyNav() {
 
 export function TitleSlide() {
   return (
-    <>
+    <div id="home">
         {/* The overlay */}
         <div className="titleslide">
           <div className="asset-underlined">
@@ -317,6 +320,6 @@ export function TitleSlide() {
             <Button style={{ backgroundColor: 'transparent' }}>View my work</Button>
           </AnchorLink>
         </div>
-    </>
+    </div>
   );
 }
