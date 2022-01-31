@@ -19,13 +19,14 @@ import { ReactComponent as HerokuIcon } from './assets/heroku.svg';
 import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
 import { ReactComponent as PhoneIcon } from './assets/phone.svg';
 import { ReactComponent as EmailIcon } from './assets/email.svg';
+import { ReactComponent as HTMLIcon } from './assets/html.svg';
 
 
-const SizableLogo = styled.img((props) => ({
-  height: props.large ? "64px" : "32px",
-  width: props.large ? "64px" : "32px",
-  margin: "4px"
-}));
+// const SizableLogo = styled.img((props) => ({
+//   height: props.large ? "64px" : "32px",
+//   width: props.large ? "64px" : "32px",
+//   margin: "4px"
+// }));
 
 const Reset = createGlobalStyle`
   ${reset};
@@ -80,12 +81,12 @@ const Padding = styled.div`
   height: 0vh;
 `;
 
-const Position = styled.p`
-  left: 50%;
-  position: fixed;
-  top: 50%;
-  transform: translate(-50%, -50%);
-`;
+// const Position = styled.p`
+//   left: 50%;
+//   position: fixed;
+//   top: 50%;
+//   transform: translate(-50%, -50%);
+// `;
 
 const Nav = styled(StickyNav)`
   background-color: none;
@@ -122,7 +123,10 @@ export default function App() {
         {(position) => (
           <div className="container">
             <div className="navbar-container">
-              <span className="align-middle"><h5 className="titleMenu"><a href="#">Bret Petersen</a></h5></span>
+              <h5 className="titleMenu"><AnchorLink href='#home'>Bret Petersen</AnchorLink></h5>
+              {/* <button className="closebtn" onClick={closeNav}>
+              <CloseIcon className="iconRolloverToWhite" width="60px" height="60px" />
+            </button> */}
               {/* Use any element to open/show the overlay navigation menu */}
               <span onClick={ openNav }>
                 <div className="menuGrouping">
@@ -142,18 +146,18 @@ export default function App() {
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
             <div>
               <div className="content">
-              <div className="pill"><h6>Crime Quiz</h6></div>
+              <div className="pill"><h6>True Crime Quiz</h6></div>
                   <div className="projIconsGroup">
-                    <a href="https://github.com/bretpeters3n">
+                    <a href="https://github.com/bretpeters3n/true-crime-quiz">
                       <div className="projIcons">
                         <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
                       </div>
                     </a>
-                    {/* <a href="http://bretpetersen.com"> */}
+                    <a href="https://true-crime-quiz.herokuapp.com/">
                       <div className="projIcons">
                         <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
                       </div>
-                    {/* </a> */}
+                    </a>
                   </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
@@ -162,18 +166,18 @@ export default function App() {
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNorthernHealthTracker">
             <div>
               <div className="content">
-                <div className="pill"><h6>Health Tracker</h6></div>
+                <div className="pill"><h6>Northern Health Tracker</h6></div>
                   <div className="projIconsGroup">
-                    {/* <a href="https://github.com/bretpeters3n"> */}
+                    <a href="https://github.com/bretpeters3n/northern-health-tracker">
                       <div className="projIcons">
                         <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
                       </div>
-                    {/* </a> */}
-                    {/* <a href="http://bretpetersen.com"> */}
+                    </a>
+                    <a href="https://northern-health-tracker2.herokuapp.com/">
                       <div className="projIcons">
                         <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
                       </div>
-                    {/* </a> */}
+                    </a>
                   </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
@@ -184,16 +188,16 @@ export default function App() {
               <div className="content">
                 <div className="pill"><h6>CatMemory</h6></div>
                   <div className="projIconsGroup">
-                    {/* <a href="https://github.com/bretpeters3n"> */}
+                    <a href="https://github.com/bretpeters3n/cat-memory">
                       <div className="projIcons">
                         <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
                       </div>
-                    {/* </a> */}
-                    {/* <a href="http://bretpetersen.com"> */}
+                    </a>
+                    <a href="https://bretpeters3n.github.io/cat-memory/">
                       <div className="projIcons">
                         <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
                       </div>
-                    {/* </a> */}
+                    </a>
                   </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
@@ -205,15 +209,15 @@ export default function App() {
                 <div className="pill"><h6>UX/UI Portfolio</h6></div>
                   <div className="projIconsGroup">
                     {/* <a href="https://github.com/bretpeters3n"> */}
-                      <div className="projIcons">
-                        <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                      </div>
+                      {/* <div className="projIcons">
+                      <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                      </div> */}
                     {/* </a> */}
-                    {/* <a href="http://bretpetersen.com"> */}
+                    <a href="https://bretpeters3n.github.io/ux-ui-portfolio_previous-portfolio/">
                       <div className="projIcons">
-                        <HerokuIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                        <HTMLIcon className="iconRolloverToYellow" width="40px" height="40px" />
                       </div>
-                    {/* </a> */}
+                    </a>
                   </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
@@ -242,7 +246,7 @@ export default function App() {
             <h1>resume</h1>
             <hr/>
           </div>
-          <a href = {Pdf} target = "_blank"  rel = "noopener noreferrer"><Button style={{ backgroundColor: 'transparent', color: 'black', border: '2px solid #212529'}}>View resume (pdf)</Button></a>
+          <a href = {Pdf} rel = "noopener noreferrer"><Button style={{ backgroundColor: 'transparent', color: 'black', border: '2px solid #212529'}}>View resume (pdf)</Button></a>
         </section>
         <section id="contact" className="other-slides bg-grey" >
           <div className="asset-underlined">
