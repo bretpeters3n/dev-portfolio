@@ -1,1 +1,0 @@
-﻿package  {		import flash.display.MovieClip;	import flash.events.Event;//	import com.nike.ShoeView;	public class Child extends MovieClip {						public function Child() {					}				public function init():void {		}	}	}
