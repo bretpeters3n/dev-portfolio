@@ -1,8 +1,8 @@
 {
-  "name": "nav",
+  "name": "dev-portfolio",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "homepage": "http://bretpeters3n.github.io/dev-portfolio",
+  "description": "Bret Petersen 2022 Full Stack Web Developer Portfolio",
+  "homepage": "https://meow-undies.com/",
   "keywords": [
     "react",
     "starter"
