@@ -10,14 +10,6 @@ import StickyNav from "react-sticky-nav";
 
 import Footer from './components/Footer';
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 854893b5604b257f922046b4df46f3c538cb043b
-// import MyNav from './MyNav';
-
-
 // import NavOverlay from './script.js';
 import { ReactComponent as HamburgerIcon } from './assets/hamburger-thin.svg';
 import { ReactComponent as CloseIcon } from './assets/close-thin.svg';
@@ -82,19 +74,12 @@ const ContainerTitle = styled.div`
   background-color: none;
   min-height: 100vh;
 `;
-<<<<<<< HEAD
 
-=======
->>>>>>> 854893b5604b257f922046b4df46f3c538cb043b
 const Container = styled.div`
-margin: auto;
   background-color: none;
   min-height: 100vh;
   max-width: 1200px;
-<<<<<<< HEAD
   margin: auto;
-=======
->>>>>>> 854893b5604b257f922046b4df46f3c538cb043b
 `;
 
 const Padding = styled.div`
@@ -111,6 +96,8 @@ const Padding = styled.div`
 
 const Nav = styled(StickyNav)`
   background-color: none;
+  max-width: 1200px;
+  margin: auto;
 `;
 
 const Button = styled.button`
@@ -136,7 +123,6 @@ export function closeNav() {
 export default function App() {
   return (
     <>
-<<<<<<< HEAD
     <ContainerTitle >
       <TitleSlide />
       <Reset />
@@ -183,79 +169,49 @@ export default function App() {
                         <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
                       </div>
                     </a>
-=======
-      <ContainerTitle>
-        <TitleSlide />
-        <Reset />
-        <Padding />
-        <div id="portfolio"></div>
-        <Nav>
-          {(position) => (
-            <div className="container">
-              <div className="navbar-container">
-                <h5 className="titleMenu"><AnchorLink href='#home'>Bret Petersen</AnchorLink></h5>
-                {/* <button className="closebtn" onClick={closeNav}>
-                <CloseIcon className="iconRolloverToWhite" width="60px" height="60px" />
-              </button> */}
-                {/* Use any element to open/show the overlay navigation menu */}
-                <span onClick={ openNav }>
-                  <div className="menuGrouping">
-                    <HamburgerIcon width="24px" height="24px" />
-                    <h5 className="titleMenu">Menu</h5>
->>>>>>> 854893b5604b257f922046b4df46f3c538cb043b
                   </div>
-                </span>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
-              {/* <SizableLogo src="https://logo.clearbit.com/novvum.io" />
-              <Position>Current position: {position}</Position> */}
             </div>
-          )}
-        </Nav>
-        <MyNav></MyNav>
-        </ContainerTitle>
-        <Container>
-        <div className="sections-gap">
-          <section className="flex-wrap container">
-            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
-              <div>
-                <div className="content">
-                <div className="pill"><h6>True Crime Quiz</h6></div>
-                    <div className="projIconsGroup">
-                      <a href="https://github.com/bretpeters3n/true-crime-quiz">
-                        <div className="projIcons">
-                          <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                        </div>
-                      </a>
-                      <a href="https://true-crime-quiz.herokuapp.com/">
-                        <div className="projIcons">
-                          <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                        </div>
-                      </a>
-                    </div>
-                  {/* <img src={CatMemory} style={{height:200}} /> */}
-                </div>
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNorthernHealthTracker">
+            <div>
+              <div className="content">
+                <div className="pill"><h6>Northern Health Tracker</h6></div>
+                  <div className="projIconsGroup">
+                    <a href="https://github.com/bretpeters3n/northern-health-tracker">
+                      <div className="projIcons">
+                        <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
+                      </div>
+                    </a>
+                    <a href="https://northern-health-tracker2.herokuapp.com/">
+                      <div className="projIcons">
+                        <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
+                      </div>
+                    </a>
+                  </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
-            </Tilt>
-            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNorthernHealthTracker">
-              <div>
-                <div className="content">
-                  <div className="pill"><h6>Northern Health Tracker</h6></div>
-                    <div className="projIconsGroup">
-                      <a href="https://github.com/bretpeters3n/northern-health-tracker">
-                        <div className="projIcons">
-                          <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
-                        </div>
-                      </a>
-                      <a href="https://northern-health-tracker2.herokuapp.com/">
-                        <div className="projIcons">
-                          <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
-                        </div>
-                      </a>
-                    </div>
-                  {/* <img src={CatMemory} style={{height:200}} /> */}
-                </div>
+            </div>
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectCatMemory">
+          <div>
+              <div className="content">
+                <div className="pill"><h6>CatMemory</h6></div>
+                  <div className="projIconsGroup">
+                    <a href="https://github.com/bretpeters3n/cat-memory">
+                      <div className="projIcons">
+                        <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
+                      </div>
+                    </a>
+                    <a href="https://bretpeters3n.github.io/cat-memory/">
+                      <div className="projIcons">
+                        <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
+                      </div>
+                    </a>
+                  </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
-<<<<<<< HEAD
             </div>
           </Tilt>
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign">
@@ -275,65 +231,24 @@ export default function App() {
                     </a>
                   </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
-=======
-            </Tilt>
-            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectCatMemory">
-            <div>
-                <div className="content">
-                  <div className="pill"><h6>CatMemory</h6></div>
-                    <div className="projIconsGroup">
-                      <a href="https://github.com/bretpeters3n/cat-memory">
-                        <div className="projIcons">
-                          <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
-                        </div>
-                      </a>
-                      <a href="https://bretpeters3n.github.io/cat-memory/">
-                        <div className="projIcons">
-                          <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
-                        </div>
-                      </a>
-                    </div>
-                  {/* <img src={CatMemory} style={{height:200}} /> */}
-                </div>
->>>>>>> 854893b5604b257f922046b4df46f3c538cb043b
               </div>
-            </Tilt>
-            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign">
-            <div>
-                <div className="content">
-                  <div className="pill"><h6>UX/UI Portfolio</h6></div>
-                    <div className="projIconsGroup">
-                      <a href="https://github.com/bretpeters3n/ux-ui-portfolio_previous-portfolio">
-                        <div className="projIcons">
-                        <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                        </div>
-                      </a>
-                      <a href="https://bretpeters3n.github.io/ux-ui-portfolio_previous-portfolio/">
-                        <div className="projIcons">
-                          <HTMLIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                        </div>
-                      </a>
-                    </div>
-                  {/* <img src={CatMemory} style={{height:200}} /> */}
-                </div>
-              </div>
-            </Tilt>     
-          </section>
-          <section id="about" className="other-slides bg-grey" >
-            <div className="asset-underlined">
-              <h1>about</h1>
-              <hr/>
             </div>
-            <div className="about-text">
-              <p>I’m a Full Stack Web Developer with extensive experience in visual design who enjoys the 
-                fast-paced environment of the tech industry and being part of pioneering teams. 
-                I’m a React-fluent developer who enjoys creating interaction and animation filled mobile 
-                and desktop experiences.</p>
+          </Tilt>         
+        </section>
+        <section id="about" className="other-slides bg-grey" >
+          <div className="asset-underlined">
+            <h1>about</h1>
+            <hr/>
+          </div>
+          <div className="about-text">
+            <p>I’m a Full Stack Web Developer with extensive experience in visual design who enjoys the   
+              fast-paced environment of the tech industry and being part of pioneering teams. 
+              I’m a React-fluent developer who enjoys creating interaction and animation filled mobile  
+              and desktop experiences.</p>
 
-              <p><span style={{ fontWeight: '600', textDecoration: 'underline' }}>Core Competencies and Skills</span><br/>
-              Full Stack Web Developer with a passion for React.js.</p>
+            <p><span style={{ fontWeight: '600', textDecoration: 'underline' }}>Core Competencies and Skills</span><br/>
+            Full Stack Web Developer with a passion for React.js.</p>
 
-<<<<<<< HEAD
             <p>When I’m not coding I enjoy street biking, live comedy and live music. I enjoy meeting new people, solving problems, and learning new things :)</p>
           </div>
         </section>
@@ -375,49 +290,6 @@ export default function App() {
       </div>
       <Footer />
     </Container>
-=======
-              <p>When I’m not coding I enjoy street biking, live comedy and live music. I enjoy meeting new people, solving problems, and learning new things :)</p>
-            </div>
-          </section>
-          <section id="resume" className="other-slides bg-yellow" >
-            <div className="asset-underlined">
-              <h1>resume</h1>
-              <hr/>
-            </div>
-            <a href = {Pdf} rel = "noopener noreferrer"><Button style={{ backgroundColor: 'transparent', color: 'black', border: '2px solid #212529'}}>View resume (pdf)</Button></a>
-          </section>
-          <section id="contact" className="other-slides bg-grey" >
-            <div className="asset-underlined">
-              <h1>contact</h1>
-              <hr/>
-            </div>
-            <div className="contactIconsGroup">
-              <a href="mailto:bretpetersen@gmail.com">
-                <div className="contactIcons">
-                  <EmailIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                </div>
-              </a>
-              <a href="https://www.linkedin.com/in/bret-petersen/" target="_blank" rel="noopener noreferrer">
-                <div className="contactIcons">
-                  <LinkedInIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                </div>
-              </a>
-              <a href="https://github.com/bretpeters3n" target="_blank" rel="noopener noreferrer">
-                <div className="contactIcons">
-                  <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                </div>
-              </a>
-              <a href="tel:4152941459">
-                <div className="contactIcons">
-                  <PhoneIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                </div>
-              </a>
-            </div>
-          </section>
-        </div>
-        <Footer />
-      </Container>
->>>>>>> 854893b5604b257f922046b4df46f3c538cb043b
     </>
   );
 }
@@ -443,6 +315,7 @@ export function MyNav() {
                 <a href="#contact">Contact</a>
             </div>
         </div>
+        
     </>
   );
 }
