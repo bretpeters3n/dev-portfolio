@@ -8,6 +8,10 @@ import Pdf from './assets/2022_bretpetersen_resume.pdf';
 
 import StickyNav from "react-sticky-nav";
 
+import Footer from './components/Footer';
+
+
+
 // import MyNav from './MyNav';
 
 
@@ -71,9 +75,16 @@ const Reset = createGlobalStyle`
 
 `;
 
+const ContainerTitle = styled.div`
+  background-color: none;
+  min-height: 100vh;
+`;
+
 const Container = styled.div`
   background-color: none;
   min-height: 100vh;
+  max-width: 1200px;
+  margin: auto;
 `;
 
 const Padding = styled.div`
@@ -114,7 +125,8 @@ export function closeNav() {
 
 export default function App() {
   return (
-    <Container >
+    <>
+    <ContainerTitle >
       <TitleSlide />
       <Reset />
       <Padding />
@@ -141,6 +153,8 @@ export default function App() {
         )}
       </Nav>
       <MyNav></MyNav>
+    </ContainerTitle>
+    <Container>
       <div className="sections-gap">
         <section className="flex-wrap container">
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
@@ -208,11 +222,11 @@ export default function App() {
               <div className="content">
                 <div className="pill"><h6>UX/UI Portfolio</h6></div>
                   <div className="projIconsGroup">
-                    {/* <a href="https://github.com/bretpeters3n"> */}
-                      {/* <div className="projIcons">
+                    <a href="https://github.com/bretpeters3n/ux-ui-portfolio_previous-portfolio">
+                      <div className="projIcons">
                       <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                      </div> */}
-                    {/* </a> */}
+                      </div>
+                    </a>
                     <a href="https://bretpeters3n.github.io/ux-ui-portfolio_previous-portfolio/">
                       <div className="projIcons">
                         <HTMLIcon className="iconRolloverToYellow" width="40px" height="40px" />
@@ -277,7 +291,9 @@ export default function App() {
           </div>
         </section>
       </div>
+      <Footer />
     </Container>
+    </>
   );
 }
 
