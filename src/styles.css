@@ -146,6 +146,43 @@ section {
   color: #f1f1f1;
 }
 
+/* Overlay code for projects. This controls the text hover on projects that has a description of the project. */
+.projectOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+  border-radius: 28px;
+  font-family: var(--main-font-family);
+}
+
+.content:hover .projectOverlay {
+  opacity: .75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* END - Overlay code for projects. */
+
+
 nav {
   z-index: 1;
 }
@@ -188,12 +225,22 @@ nav {
   margin: 18px; */
 }
 
+.aboutCard {
+  width: 80% !important;
+  margin: auto;
+  font-weight: 400;
+}
+
 .projectCatMemory {
   background-image: url(./assets/project-catMemory.png);
   background-color: #A573E1;
 }
 .projectGraphicDesign {
   background-image: url(./assets/project-graphicDesign.png);
+  background-color: #FBDD64;
+}
+.projectNoteTaker {
+  background-image: url(./assets/project-noteTaker.png);
   background-color: #FBDD64;
 }
 .projectNorthernHealthTracker {
@@ -236,6 +283,7 @@ nav {
   border-radius: 32px;
   background-color: white;
   color: black;
+  z-index: 10;
 }
 
 .projIcons {
@@ -263,6 +311,7 @@ div.projectCards:hover div.projIconsGroup {display:flex;}
   right: 30px;
   display: none;
   gap: 16px;
+  z-index: 10;
 }
 
 .contactIconsGroup {

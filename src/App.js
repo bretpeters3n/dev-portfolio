@@ -157,19 +157,23 @@ export default function App() {
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
             <div>
               <div className="content">
-              <div className="pill"><h6>True Crime Quiz</h6></div>
-                  <div className="projIconsGroup">
-                    <a href="https://github.com/bretpeters3n/true-crime-quiz">
-                      <div className="projIcons">
-                        <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                      </div>
-                    </a>
-                    <a href="https://true-crime-quiz.herokuapp.com/">
-                      <div className="projIcons">
-                        <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
-                      </div>
-                    </a>
-                  </div>
+                <div className="pill"><h6>True Crime Quiz</h6></div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/true-crime-quiz">
+                    <div className="projIcons">
+                      <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://true-crime-quiz.herokuapp.com/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A responsive application that allows users to take a true crime quiz...<br /><br />
+                  Demonstrating Framer Motion, React Router, Mongoose, and Express working to bring users some true crime entertainment.</div>
+                </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
             </div>
@@ -178,58 +182,70 @@ export default function App() {
             <div>
               <div className="content">
                 <div className="pill"><h6>Northern Health Tracker</h6></div>
-                  <div className="projIconsGroup">
-                    <a href="https://github.com/bretpeters3n/northern-health-tracker">
-                      <div className="projIcons">
-                        <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
-                      </div>
-                    </a>
-                    <a href="https://northern-health-tracker2.herokuapp.com/">
-                      <div className="projIcons">
-                        <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
-                      </div>
-                    </a>
-                  </div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/northern-health-tracker">
+                    <div className="projIcons">
+                      <GithubIcon className="iconRolloverToGreen" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://northern-health-tracker2.herokuapp.com/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToGreen" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A cross-platform application that allows users to keep track of their health goals...<br /><br />
+                  Demonstrating Chart.js, SQL, Node.js, Javascript, and Heroku working to bring users organization in their health goal pursuit.</div>
+                </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
             </div>
           </Tilt>
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectCatMemory">
-          <div>
+            <div>
               <div className="content">
                 <div className="pill"><h6>CatMemory</h6></div>
-                  <div className="projIconsGroup">
-                    <a href="https://github.com/bretpeters3n/cat-memory">
-                      <div className="projIcons">
-                        <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
-                      </div>
-                    </a>
-                    <a href="https://bretpeters3n.github.io/cat-memory/">
-                      <div className="projIcons">
-                        <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
-                      </div>
-                    </a>
-                  </div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/cat-memory">
+                    <div className="projIcons">
+                      <GithubIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://bretpeters3n.github.io/cat-memory/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToLightBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A responsive application that allows users to play a game of memory with cat photos...<br /><br />
+                  Demonstrating the Cat API, Bootstrap, jQuery, and Javascript working to bring users a smile to their face:)</div>
+                </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
             </div>
           </Tilt>
-          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign">
-          <div>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNoteTaker">
+            <div>
               <div className="content">
-                <div className="pill"><h6>UX/UI Portfolio</h6></div>
-                  <div className="projIconsGroup">
-                    <a href="https://github.com/bretpeters3n/ux-ui-portfolio_previous-portfolio">
-                      <div className="projIcons">
-                      <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                      </div>
-                    </a>
-                    <a href="https://bretpeters3n.github.io/ux-ui-portfolio_previous-portfolio/">
-                      <div className="projIcons">
-                        <HTMLIcon className="iconRolloverToYellow" width="40px" height="40px" />
-                      </div>
-                    </a>
-                  </div>
+                <div className="pill"><h6>Note Taker</h6></div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/note-taker">
+                    <div className="projIcons">
+                    <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://bret-heroku-app.herokuapp.com/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A responsive app that allows users to take notes at anytime throughout the day...<br /><br />
+                  Demonstrating JSON, Node.js, Bootstrap, and Javascript working to bring users a place to take notes for themselves.</div>
+                </div>
                 {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
             </div>
@@ -250,6 +266,34 @@ export default function App() {
             Full Stack Web Developer with a passion for React.js.</p>
 
             <p>When I’m not coding I enjoy street biking, live comedy and live music. I enjoy meeting new people, solving problems, and learning new things :)</p>
+
+            <p><span style={{ fontWeight: '600', textDecoration: 'underline' }}>Check out my previous design portfolio</span></p>
+
+            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign aboutCard">
+              <div>
+                <div className="content">
+                  <div className="pill"><h6>UX/UI Portfolio</h6></div>
+                  <div className="projIconsGroup">
+                    <a href="https://github.com/bretpeters3n/ux-ui-portfolio_previous-portfolio">
+                      <div className="projIcons">
+                      <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                      </div>
+                    </a>
+                    <a href="https://bretpeters3n.github.io/ux-ui-portfolio_previous-portfolio/">
+                      <div className="projIcons">
+                        <HTMLIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="projectOverlay">
+                    <div class="text">A responsive website that allows users to browse through my web design work...<br /><br />
+                    Demonstrating Bootstrap, CSS, and HTML working to bring users more information about my web design past.</div>
+                  </div>
+                  {/* <img src={CatMemory} style={{height:200}} /> */}
+                </div>
+              </div>
+            </Tilt>
+
           </div>
         </section>
         <section id="resume" className="other-slides bg-yellow" >
