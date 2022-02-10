@@ -226,7 +226,32 @@ export default function App() {
               </div>
             </div>
           </Tilt>
-          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNoteTaker">
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign">
+            <div>
+              <div className="content">
+                <div className="pill"><h6>UX/UI Portfolio</h6></div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/ux-ui-portfolio_previous-portfolio">
+                    <div className="projIcons">
+                    <GithubIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://bretpeters3n.github.io/ux-ui-portfolio_previous-portfolio/">
+                    <div className="projIcons">
+                      <HTMLIcon className="iconRolloverToYellow" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">Before focusing on my career in web development, 
+                  I spend 10+ years in the adjacent fields of UX design, interactive art direction, and animation...<br /><br /> 
+                  I created an online portfolio to showcase my work in that field.</div>
+                </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
+            </div>
+          </Tilt>
+          {/* <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectNoteTaker">
             <div>
               <div className="content">
                 <div className="pill"><h6>Note Taker</h6></div>
@@ -246,10 +271,9 @@ export default function App() {
                   <div class="text">A responsive app that allows users to take notes at anytime throughout the day...<br /><br />
                   Demonstrating JSON, Node.js, Bootstrap, and Javascript working to bring users a place to take notes for themselves.</div>
                 </div>
-                {/* <img src={CatMemory} style={{height:200}} /> */}
               </div>
             </div>
-          </Tilt>         
+          </Tilt>          */}
         </section>
         <section id="about" className="other-slides bg-grey" >
           <div className="asset-underlined">
@@ -267,7 +291,7 @@ export default function App() {
 
             <p>When I’m not coding I enjoy street biking, live comedy and live music. I enjoy meeting new people, solving problems, and learning new things :)</p>
 
-            <p><span style={{ fontWeight: '600', textDecoration: 'underline' }}>Check out my previous design portfolio</span></p>
+            {/* <p><span style={{ fontWeight: '600', textDecoration: 'underline' }}>Check out my previous design portfolio</span></p>
 
             <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectGraphicDesign aboutCard">
               <div>
@@ -289,10 +313,9 @@ export default function App() {
                     <div class="text">A responsive website that allows users to browse through my web design work...<br /><br />
                     Demonstrating Bootstrap, CSS, and HTML working to bring users more information about my web design past.</div>
                   </div>
-                  {/* <img src={CatMemory} style={{height:200}} /> */}
                 </div>
               </div>
-            </Tilt>
+            </Tilt> */}
 
           </div>
         </section>
