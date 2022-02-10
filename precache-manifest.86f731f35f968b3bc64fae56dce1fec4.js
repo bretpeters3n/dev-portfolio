@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e3c0f460ca31cfdd533c6b6910f9c24",
+    "revision": "93689c6c3067e55bd46c5cb3cb510835",
     "url": "/dev-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dev-portfolio/static/css/2.c3097103.chunk.css"
   },
   {
-    "revision": "bb57f5418d1b5e5d912a",
-    "url": "/dev-portfolio/static/css/main.88b1aab8.chunk.css"
+    "revision": "afab8ff10143accf649d",
+    "url": "/dev-portfolio/static/css/main.e2556a5b.chunk.css"
   },
   {
     "revision": "a91a6fd05657029bef19",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dev-portfolio/static/js/2.7b7b21df.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb57f5418d1b5e5d912a",
-    "url": "/dev-portfolio/static/js/main.86594bd8.chunk.js"
+    "revision": "afab8ff10143accf649d",
+    "url": "/dev-portfolio/static/js/main.7ce1350c.chunk.js"
   },
   {
     "revision": "1e10e024f0899dac1144",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1770cf316fc4921b11fd2497635bab89",
     "url": "/dev-portfolio/static/media/project-northerHealthTracker.1770cf31.png"
+  },
+  {
+    "revision": "5a8d08eb7a7c12d368fb6abd6284903e",
+    "url": "/dev-portfolio/static/media/project-noteTaker.5a8d08eb.png"
   },
   {
     "revision": "5d141ce3c9529b48658a3f9a2f283c36",
