@@ -168,9 +168,9 @@ section {
 
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   width: 75%;
   -webkit-transform: translate(-50%, -50%);
@@ -249,6 +249,18 @@ nav {
 }
 .projectTrueCrimeQuiz {
   background-image: url(./assets/project-trueCrimeQuiz.png);
+  background-color: #2F73B4;
+}
+.projectBudgety {
+  background-image: url(./assets/project-budgety.png);
+  background-color: #b42f2f;
+}
+.projectCoolibar1 {
+  background-image: url(./assets/project-coolibar1.jpg);
+  background-color: #2F73B4;
+}
+.projectBeautifulMind {
+  background-image: url(./assets/project-beautifulMind.jpg);
   background-color: #2F73B4;
 }
 
@@ -437,6 +449,9 @@ hr {
   }
 }
 @media screen and (max-width: 1200px) {
+  .text {
+    font-size: 16px;
+  }
   .projectCards {
     width: 47%;
   }
@@ -454,6 +469,10 @@ hr {
   }
 }
 @media screen and (max-width: 768px) {
+  .text {
+    font-size: 18px;
+    top: 45%;
+  }
   h1 {
     font-size: 40px!important;
   }
@@ -474,6 +493,10 @@ hr {
   }
 }
 @media screen and (max-width: 424px) {
+  .text {
+    font-size: 14px;
+    top: 42%;
+  }
   .projectCards {
     width: 80%;
   }

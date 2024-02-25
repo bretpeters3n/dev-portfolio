@@ -154,6 +154,78 @@ export default function App() {
     <Container>
       <div className="sections-gap">
         <section className="flex-wrap container">
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectBeautifulMind">
+            <div>
+              <div className="content">
+                <div className="pill"><h6>Beautiful Mind (VR App)</h6></div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/true-crime-quiz">
+                    <div className="projIcons">
+                      <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://true-crime-quiz.herokuapp.com/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A responsive application that allows users to take a true crime quiz...<br /><br />
+                  Demonstrating Framer Motion, React Router, Mongoose, and Express working to bring users some true crime entertainment.</div>
+                </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
+            </div>
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectCoolibar1">
+            <div>
+              <div className="content">
+                <div className="pill"><h6>Coolibar (Magento 2)</h6></div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/true-crime-quiz">
+                    <div className="projIcons">
+                      <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://true-crime-quiz.herokuapp.com/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A responsive application that allows users to take a true crime quiz...<br /><br />
+                  Demonstrating Framer Motion, React Router, Mongoose, and Express working to bring users some true crime entertainment.</div>
+                </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
+            </div>
+          </Tilt>
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectBudgety">
+            <div>
+              <div className="content">
+                <div className="pill"><h6>Budgety</h6></div>
+                <div className="projIconsGroup">
+                  <a href="https://github.com/bretpeters3n/true-crime-quiz">
+                    <div className="projIcons">
+                      <GithubIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                  <a href="https://true-crime-quiz.herokuapp.com/">
+                    <div className="projIcons">
+                      <HerokuIcon className="iconRolloverToDarkBlue" width="40px" height="40px" />
+                    </div>
+                  </a>
+                </div>
+                <div class="projectOverlay">
+                  <div class="text">A responsive application that allows users to take a true crime quiz...<br /><br />
+                  Demonstrating Framer Motion, React Router, Mongoose, and Express working to bring users some true crime entertainment.</div>
+                </div>
+                {/* <img src={CatMemory} style={{height:200}} /> */}
+              </div>
+            </div>
+          </Tilt>
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} className="projectCards projectTrueCrimeQuiz">
             <div>
               <div className="content">
