@@ -114,7 +114,7 @@ This project is my current development portfolio. The styles and interactions ch
 
 <!-- PREVIEW -->
 ## Preview
-http://bretpetersen.com/
+https://bretpeters3n.github.io/dev-portfolio/
 <!--![image](./img/screenshot.jpg)-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -122,7 +122,7 @@ http://bretpetersen.com/
 
 <!-- DEMO -->
 ## Demo
-http://bretpetersen.com/
+https://bretpeters3n.github.io/dev-portfolio/
 <!--[View Demo](https://bretpeters3n.github.io/Advanced-CSS-Portfolio/)-->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
