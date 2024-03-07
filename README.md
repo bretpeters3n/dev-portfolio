@@ -44,7 +44,7 @@
     This project is my current development portfolio.
     <br />
     <br />
-    <!--<a href="https://bretpeters3n.github.io/Advanced-CSS-Portfolio/">View Demo</a>-->
+    <a href="https://bretpeters3n.github.io/dev-portfolio/">View Demo</a>
   </p>
 </div>
 
