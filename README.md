@@ -41,7 +41,7 @@
   </p>
 
   <p align="center">
-    This project is my current development portfolio.
+    This project was my first development portfolio.
     <br />
     <br />
     <a href="https://bretpeters3n.github.io/dev-portfolio/">View Demo</a>
