@@ -85,7 +85,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 <!-- OVERVIEW -->
 ## Overview
-This project is my current development portfolio. The styles and interactions chosen for this build are based on an accumulation of other portfolios and interactive websites currently out there.
+This project was my first development portfolio. The styles and interactions chosen for this build are based on an accumulation of other portfolios and interactive websites currently out there.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
